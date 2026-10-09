@@ -7,10 +7,10 @@ Covers the **full REST allowlist** (same `operationId`s as the official SDKs). M
 ## Install
 
 ```bash
-go install github.com/dogabot/dogabot-cli/cmd/dogabot@v0.1.0
+go install github.com/dogabot/dogabot-cli/cmd/dogabot@latest
 ```
 
-Requires Go 1.22+. Prebuilt GitHub Release binaries and Homebrew may follow later.
+Requires Go 1.22+. `@latest` tracks the newest release tag; pin `@vX.Y.Z` for reproducible installs. Prebuilt GitHub Release binaries and Homebrew may follow later.
 
 ## Auth
 
