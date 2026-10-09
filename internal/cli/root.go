@@ -39,6 +39,7 @@ func newRootCmd() *cobra.Command {
 	registerGroupedCommands(root)
 	registerFriendlyAliases(root)
 	root.AddCommand(newCompletionCmd(root))
+	installColoredHelp(root)
 
 	return root
 }
